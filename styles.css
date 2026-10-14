@@ -178,7 +178,7 @@ h1 em,h2 em {
     width:min(100%,340px);
     margin:auto;
     position:relative;
-    border-radius:48% 48% 4px 4px;
+    border-radius:4;
     background:var(--sage-light);
     border:1px solid var(--line);
     display:grid;
