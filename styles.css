@@ -807,3 +807,14 @@ footer {
         padding-bottom:50px
     }
 }
+.work-description {
+    width: 100%;
+    max-width: none;
+    margin: 0 0 32px;
+    color: var(--muted);
+    font-size: 14px;
+    line-height: 1.95;
+}
+.work-description p {
+    margin: 0;
+}
