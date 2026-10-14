@@ -818,3 +818,32 @@ footer {
 .work-description p {
     margin: 0;
 }
+.sample-link {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    color: var(--sage);
+    font-weight: 600;
+    text-decoration: underline;
+    text-decoration-thickness: 1px;
+    text-underline-offset: 4px;
+    transition: color 0.2s ease;
+}
+
+.sample-link:hover {
+    color: var(--ink);
+}
+
+.sample-link span {
+    display: inline-block;
+    transition: transform 0.2s ease;
+}
+
+.sample-link:hover span {
+    transform: translate(3px, -3px);
+}
+
+.sample-link:focus-visible {
+    outline: 2px solid var(--sage);
+    outline-offset: 4px;
+}
