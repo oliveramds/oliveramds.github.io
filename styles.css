@@ -653,7 +653,9 @@ footer {
         width:calc(100% - 36px)
     }
     .header {
-        height:72px
+        height:72px;
+        position: relative;
+        z-index: 999;
     }
     .menu {
         display:block
@@ -670,6 +672,7 @@ footer {
         box-shadow:0 12px 28px #34483b12;
         flex-direction:column;
         gap:5px
+        z-index: 999;
     }
     nav.open {
         display:flex
