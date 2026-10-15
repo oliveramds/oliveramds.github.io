@@ -363,6 +363,10 @@ h1 em,h2 em {
     background:var(--paper);
     color:var(--forest)
 }
+.button.dark {
+    background: var(--forest);
+    color: var(--paper);
+}
 .side {
     font-size:10px;
     line-height:2;
